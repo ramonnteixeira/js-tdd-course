@@ -4,7 +4,10 @@
   "description": "Nossa biblioteca do curso de JS com TDD na prática",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "precommit": "npm run test",
+      "prepush": "npm run test",
+      "lint": "./node_modules/eslint/bin/eslint.js src/*.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/ramonnteixeira/js-tdd-course/issues"
   },
-  "homepage": "https://github.com/ramonnteixeira/js-tdd-course#readme"
+  "homepage": "https://github.com/ramonnteixeira/js-tdd-course#readme",
+  "dependencies": {
+    "eslint": "^5.9.0",
+    "husky": "^1.2.0"
+  }
 }
