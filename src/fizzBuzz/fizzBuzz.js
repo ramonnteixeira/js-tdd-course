@@ -10,3 +10,5 @@ export default function FizzBuzz(num) {
 function lala() {
 
 }
+
+lala();
