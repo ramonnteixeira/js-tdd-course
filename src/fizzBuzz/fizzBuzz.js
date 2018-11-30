@@ -6,7 +6,3 @@ export default function FizzBuzz(num) {
 
     return num;
 }
-
-export function lala() {
-
-}
