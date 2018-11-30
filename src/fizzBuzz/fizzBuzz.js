@@ -7,8 +7,6 @@ export default function FizzBuzz(num) {
     return num;
 }
 
-function lala() {
+export function lala() {
 
 }
-
-lala();
